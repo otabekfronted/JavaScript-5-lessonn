@@ -134,11 +134,131 @@
 // addString(nameString);
 
 // masala 19
-function ikkitaSon(x, y) {
-    if (x + y < 100) {
+// function ikkitaSon(x, y) {
+//     if (x + y < 100) {
+//         console.log(true, x + y);
+//     } else {
+//         console.log(false, x + y);
+//     }
+// }
+// let yigindi = +prompt("Birinchi Son kiriting");
+// let yigindi2 = +prompt("Ikkinchi Son kiriting");
+
+// ikkitaSon(yigindi, yigindi2);
+
+// masala 20
+// function printArray(a) {
+//     let addArray = [];
+//     for (let i = 1; i <= a; i++) {
+//         addArray++;
+//         console.log(Array(addArray));
+//     }
+// }
+// printArray(2);
+
+// masala 21
+// function oyoqlar(tovuq, qoy, sigir) {
+//     console.log(`${tovuq * 2 + qoy * 4 + sigir * 4}`);
+// }
+// oyoqlar(4, 5, 10);
+// oyoqlar(1, 2, 3);
+// oyoqlar(5, 2, 8);
+
+// masala 22
+// function operator(a, b) {
+//     console.log(a && b);
+// }
+// operator(true, false);
+// operator(true, true);
+// operator(false, true);
+// operator(false, false);
+
+// masala 23
+// function tengMi(x, y) {
+//     if (x === y) {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     }
+// }
+// let firstNumber = +prompt("Birinchi soni kiriting");
+// let seconNumber = +prompt("Ikkinchi soni kiriting");
+// tengMi(firstNumber, seconNumber);
+
+// masala 24
+// function futbolOchko(yutishlar, durrang, maglubiyatlar) {
+//     console.log(`${yutishlar * 3 + durrang * 1 + maglubiyatlar * 0} ochko`);
+// }
+// let yutishlar = +prompt("Yutishlar sonini kiriting");
+// let durranglar = +prompt("Durranglar sonini kiriting");
+// let maglubiyatlar = +prompt("Maglubiyatlar sonini kiriting");
+// futbolOchko(yutishlar, durranglar, maglubiyatlar);
+
+// masala 25
+// function sekundlar(soat, minut) {
+//     console.log(`${soat * 3600 + minut * 60} sekund`);
+// }
+
+// let soat = +prompt("Soatni kiriting");
+// let minut = +prompt("Minutni kiriting");
+// sekundlar(soat, minut);
+
+// masala 26
+// function equel(fun) {
+//     if (fun === 7) {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     }
+// }
+// equel(4);
+// equel(8);
+// equel(7);
+
+// masala 27
+// function tengMi(x, y) {
+//     if (x === y) {
+//         console.log(true);
+//     } else {
+//         console.log(false);
+//     }
+// }
+// let checkEquality = prompt("Istalagan turdagi qiymatni kiriting");
+// let checkEquality2 = prompt("Istalagan turdagi qiymatni kiriting");
+// tengMi(checkEquality, checkEquality2);
+
+// masala 28
+// function booleanToString(bool) {
+//     console.log(bool.trim(""));
+// }
+// booleanToString(true);
+
+// masala 29
+
+// const getRectArea = (arrowFun) => {
+//     return arrowFun;
+// };
+
+// let arroWFunction = prompt("Son yoki harif kiriting");
+// console.log(getRectArea(arroWFunction));
+
+// masala 30
+// function frameSoni(minut, frame) {
+//     console.log(minut * 60 * frame);
+// }
+// let minut = prompt("minut kiriting");
+// let frame = prompt("frame kiriting");
+// frameSoni(minut, frame);
+
+// masala 32
+function teng10(str1, str2) {
+    if (str1 == 10 || str2 == 10 || str1 + str2 == 10) {
         console.log(true);
     } else {
         console.log(false);
     }
 }
-let yigindi = +prompt("Son kiriting");
+
+let num1 = +prompt("Birinchi sonni kiriting");
+let num2 = +prompt("Ikkinchi sonni kiriting");
+teng10(num1, num2);
